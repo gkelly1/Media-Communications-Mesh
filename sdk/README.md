@@ -14,14 +14,14 @@ The MCM SDK is a lightweight and versatile library designed to facilitate seamle
 Install the required dependencies by running the command:
 
 ```bash
-$ sudo apt-get install -y cmake libbsd-dev
+sudo apt-get install -y cmake libbsd-dev
 ```
 
 2. Build SDK Library
 
 ```bash
-$ cmake -B out .
-$ cmake --build out -j 4
+cmake -B out .
+cmake --build out -j 4
 ```
 
 3. Install on System
@@ -29,7 +29,7 @@ $ cmake --build out -j 4
 To install the MCM SDK on your system, execute the following command:
 
 ```bash
-$ cmake --install out
+cmake --install out
 ```
 
 ## Sample Applications
